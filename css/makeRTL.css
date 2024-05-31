@@ -1,0 +1,149 @@
+/* header changes */
+.site-header .logo-header{
+    float: right;
+}
+.site-header .extra-nav {
+    float: left;
+}
+.header-nav .nav a::after{
+    margin-left: 0;
+    margin-right: 5px;
+}
+.navbar-toggler{
+    float: left;
+}
+
+/* breadcrumb */
+.breadcrumb .breadcrumb-item::before{
+    float: right !important;
+    transform: rotateY(180deg);
+}
+
+/* content-inner */
+.content-inner .icon-bx-wraper.style-2 .data-text{
+    right: unset;
+    left: 12px;
+}
+.content-inner .icon-bx-wraper.style-2 .icon-bx {
+    margin-right: unset;
+    margin-left: 15px;
+}
+
+/* footer(email arrow) */
+.dzSubscribe .form-group .input-group .input-group-addon{
+    right: unset;
+    left: 0;
+    transform: translateY(-50%) rotateY(180deg)
+}
+.widget_post ul .dz-media{
+    margin-right: unset;
+    margin-left: 12px;
+}
+
+/* scroll top */
+.scroltop{
+    right: unset;
+    left: 30px;
+}
+
+/* offcanvas-body */
+.dz-offcanvas.offcanvas .btn-close{
+    right: unset;
+    left: 5px;
+}
+.dz-offcanvas.offcanvas.offcanvas-end{
+    width: unset;
+}
+.dz-offcanvas.offcanvas.offcanvas-end .offcanvas-body{
+    width: 400px;
+    /* padding: 0 !important; */
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x) !important;
+}
+.cart-widget .dz-media{
+    margin-right: unset !important;
+    margin-left: 1rem;
+}
+.shipping-time .dz-icon{
+    margin-right: unset;
+    margin-left: 20px;
+}
+
+/* mobile menu */
+.mo-left .header-nav{
+    left: unset !important;
+    right: -100%;
+}
+.mo-left .header-nav.show{
+    left: unset !important;
+    right: 0;
+} 
+
+.navbar-toggler{
+    margin: 18px 30px 16px 0px;
+}
+
+.header-nav .nav > li > a::after{
+    float: left !important;
+    transform: rotateY(180deg);
+}
+.header-nav .sub-menu li a{
+    text-align: right;
+}
+.header-nav .nav > li .mega-menu, .header-nav .nav > li .sub-menu {
+    text-align: right;
+}
+
+/* header search */
+
+.header-item-search .input-group .btn{
+    right: unset;
+    left: 0;
+}
+.search-input .bootstrap-select.default-select:after{
+    right: unset;
+    left: 0;
+}
+.bootstrap-select .dropdown-toggle .filter-option{
+    text-align: right;
+}
+.dz-search-area .search-input .bootstrap-select.default-select .dropdown-toggle{
+    padding: 0px 0px 0px 25px;
+}
+.category-swiper2 .shop-card .dz-content{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+}
+
+@media screen and (min-width:577px){
+    
+}
+
+@media screen and (min-width:768px){
+    .site-header .logo-header{
+        margin-right: 0 !important;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:992px){
+    
+}
+@media screen and (min-width:1200px){
+
+}
+@media screen and (min-width:1400px){
+    
+}
