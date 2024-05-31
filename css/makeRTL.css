@@ -1,3 +1,6 @@
+html{
+    direction: rtl;
+}
 /* header changes */
 .site-header .logo-header{
     float: right;
@@ -51,13 +54,9 @@
     right: unset;
     left: 5px;
 }
-.dz-offcanvas.offcanvas.offcanvas-end{
-    width: unset;
-}
-.dz-offcanvas.offcanvas.offcanvas-end .offcanvas-body{
-    width: 400px;
-    /* padding: 0 !important; */
-    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x) !important;
+.offcanvas.offcanvas-end{
+    right: unset;
+    left: 0;
 }
 .cart-widget .dz-media{
     margin-right: unset !important;
